@@ -1,5 +1,6 @@
 def ft_count_harvest_recursive():
     days_amt = input("Days until harvest: ")
+
     def ft_countdown():
         if ft_countdown.val == ft_countdown.stopat:
             print("Harvest time!")
